@@ -76,7 +76,7 @@
         h1 { font-size: 4.5em; color: #1f8dd6; margin: 0 }
         h2 { font-size: 2em; color: #636363; }
 		.brand-logo h2 { font-size: 1.5em; color: #fff;}
-        h3 { font-size: 1.8em; color: #4b4b4b; margin: 1.8em 0 .8em }
+        h3 { letter-spacing: inherit; text-transform: inherit; font-family: Montserrat, sans-serif; font-size: 1.5em; font-weight:700; font-style: normal; color: #32b1ca;}
         h4 { font: bold 1em sans-serif; color: #636363; margin: 4em 0 1em; }
         a { color: #4e99c7; text-decoration: none; }
         a:hover { text-decoration: underline; }
@@ -185,7 +185,7 @@
 
 .slider-nav__label {
   font-size: 13px;
-  background-color: #32b1ca;
+  background-color: #d8c821;
   display: block;
   height: 2em;
   line-height: 2em;
@@ -278,16 +278,20 @@
 <body>
 
 
-<div class='container example-three' style="width: inherit !important; max-width: inherit !important";>
-  <header class='example-three-header' style="padding: 10px 10px 10px 50px !important">
-    <span class='logo'><img style="vertical-align:middle; padding-right: 50px;" src="images/logo.png"><h2 style="margin-bottom: 0px; color:#fff; display: inline-block; vertical-align:middle;"> Juguem amb els contes</h2></span>
-  </header>
-
-
- <div style="max-width:900px;padding:0 10px;margin:20px auto;text-align:center">
-        <h1>Tria el conte</h1>
+ <div style="max-width:900px;padding:0 10px;margin:20px auto;text-align:center; font-size:1.5em;">
+        <h3>Tria un dels nostres contes i clica-hi per començar el puzle</h3>
     </div>
 <div class="slider-wrapper">
+  <ul class="slider-nav">
+    <li class="slider-nav__item"><label class="slider-nav__label" for="one">1</label></li>
+    <li class="slider-nav__item"><label class="slider-nav__label" for="two">2</label></li>
+    <li class="slider-nav__item"><label class="slider-nav__label" for="three">3</label></li>
+    <li class="slider-nav__item"><label class="slider-nav__label" for="quatre">4</label></li>
+    <li class="slider-nav__item"><label class="slider-nav__label" for="cinc">5</label></li>
+    <li class="slider-nav__item"><label class="slider-nav__label" for="sis">6</label></li>
+    <li class="slider-nav__item"><label class="slider-nav__label" for="set">7</label></li>
+    <li class="slider-nav__item"><label class="slider-nav__label" for="vuit">8</label></li>
+  </ul><!-- .slider-nav -->
   <div class="slider">
     <input type="radio" name="slider" class="trigger" id="one" checked="checked" />
     <div class="slide">
@@ -338,16 +342,7 @@
       </figure><!-- .slide-figure -->
     </div><!-- .slide -->
   </div><!-- .slider -->
-  <ul class="slider-nav">
-    <li class="slider-nav__item"><label class="slider-nav__label" for="one">1</label></li>
-    <li class="slider-nav__item"><label class="slider-nav__label" for="two">2</label></li>
-    <li class="slider-nav__item"><label class="slider-nav__label" for="three">3</label></li>
-    <li class="slider-nav__item"><label class="slider-nav__label" for="quatre">4</label></li>
-    <li class="slider-nav__item"><label class="slider-nav__label" for="cinc">5</label></li>
-    <li class="slider-nav__item"><label class="slider-nav__label" for="sis">6</label></li>
-    <li class="slider-nav__item"><label class="slider-nav__label" for="set">7</label></li>
-    <li class="slider-nav__item"><label class="slider-nav__label" for="vuit">8</label></li>
-  </ul><!-- .slider-nav -->
+
 </div><!-- .slider-wrapper -->
   
 
