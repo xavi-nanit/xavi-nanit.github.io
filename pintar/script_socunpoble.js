@@ -111,7 +111,7 @@
   
 }( jQuery ));
 
-$('#ActivityDIV'   ).makeSVGcolor('http://calaflora.com/nanit/pintar/images/socunpoble.svg')
+$('#ActivityDIV'   ).makeSVGcolor('https://xavi-nanit.github.io/pintar/images/socunpoble.svg')
 $('#btnRandom'     ).btnRandom()
 $('#btnClear'      ).btnClear()
 $('#btnDownloadSVG').btnDownload()
