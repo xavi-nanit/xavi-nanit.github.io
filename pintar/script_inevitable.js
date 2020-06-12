@@ -111,7 +111,7 @@
   
 }( jQuery ));
 
-$('#ActivityDIV'   ).makeSVGcolor('http://calaflora.com/nanit/pintar/images/inevitable.svg')
+$('#ActivityDIV'   ).makeSVGcolor('https://xavi-nanit.github.io/pintar/images/inevitable.svg')
 $('#btnRandom'     ).btnRandom()
 $('#btnClear'      ).btnClear()
 $('#btnDownloadSVG').btnDownload()
