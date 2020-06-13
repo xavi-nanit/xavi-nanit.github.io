@@ -111,7 +111,7 @@
   
 }( jQuery ));
 
-$('#ActivityDIV'   ).makeSVGcolor('http://calaflora.com/nanit/pintar/images/louisiana.svg')
+$('#ActivityDIV'   ).makeSVGcolor('https://xavi-nanit.github.io/pintar/images/louisiana.svg')
 $('#btnRandom'     ).btnRandom()
 $('#btnClear'      ).btnClear()
 $('#btnDownloadSVG').btnDownload()

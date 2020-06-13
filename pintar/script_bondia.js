@@ -111,7 +111,7 @@
   
 }( jQuery ));
 
-$('#ActivityDIV'   ).makeSVGcolor('http://calaflora.com/nanit/pintar/images/bondia.svg')
+$('#ActivityDIV'   ).makeSVGcolor('https://xavi-nanit.github.io/pintar/images/bondia.svg')
 $('#btnRandom'     ).btnRandom()
 $('#btnClear'      ).btnClear()
 $('#btnDownloadSVG').btnDownload()
